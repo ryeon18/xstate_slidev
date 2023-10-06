@@ -581,7 +581,7 @@ const newMachine = withConfig(extendOptMachine, {
 <br>
 
 <p>현재 머신의 옵션을 변경하고, 새로운 머신을 생성합니다. 이 함수는 머신의 옵션을 덮어쓰기 할 때 사용됩니다.</p>
-<p>withConfiog를 통해 만들어진 newMachine의  값은 10이 되고, extendOptMachinedms 변하지 않고 0이 됩니다.</p>
+<p>withConfig를 통해 만들어진 newMachine의  값은 10이 되고, extendOptMachinedms 변하지 않고 0이 됩니다.</p>
 
 <p>상기 두 개 모두 머신상태를 확장시키는 기능을 제공하며, 이를 통해 코드의 재사용성을 높이고 유연성을 확보할 수 있습니다.</p>
 
